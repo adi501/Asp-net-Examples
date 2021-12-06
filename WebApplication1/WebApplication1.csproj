@@ -70,6 +70,7 @@
     <Content Include="DropDownList_change_event_using_jQuery_class_selector_in_ASP_net.aspx" />
     <Content Include="DropDownList_Change_Event_Using_JQuery_in_ASP_net.aspx" />
     <Content Include="Global.asax" />
+    <Content Include="How_to_call_web_method_in_asp_net_using_jquery.aspx" />
     <Content Include="Jquery\jquery-3.6.0.js" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -90,6 +91,13 @@
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="How_to_call_web_method_in_asp_net_using_jquery.aspx.cs">
+      <DependentUpon>How_to_call_web_method_in_asp_net_using_jquery.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="How_to_call_web_method_in_asp_net_using_jquery.aspx.designer.cs">
+      <DependentUpon>How_to_call_web_method_in_asp_net_using_jquery.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
