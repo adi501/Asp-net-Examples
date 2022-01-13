@@ -72,6 +72,7 @@
     <Content Include="Global.asax" />
     <Content Include="How_to_call_web_method_in_asp_net_using_jquery.aspx" />
     <Content Include="Jquery\jquery-3.6.0.js" />
+    <Content Include="Private_Fields.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -98,6 +99,13 @@
     </Compile>
     <Compile Include="How_to_call_web_method_in_asp_net_using_jquery.aspx.designer.cs">
       <DependentUpon>How_to_call_web_method_in_asp_net_using_jquery.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Private_Fields.aspx.cs">
+      <DependentUpon>Private_Fields.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Private_Fields.aspx.designer.cs">
+      <DependentUpon>Private_Fields.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
